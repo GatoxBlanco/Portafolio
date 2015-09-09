@@ -1,0 +1,135 @@
+<section>
+	<div class="conatiner-fluid">
+		<div class="row espesificado fondo_imagen" style="background-image:url(../../public/img/DeathtoStock_Wired6.jpg); height:340px;">
+			<div class="col-md-12 titulo_plan text-center">
+				<img src="../../public/img/1437449998_window.png" class="img-responsive center-block"><br>
+				<h2 class="text-center">Plan Básico</h2>
+			</div>
+		</div>
+	</div>		
+	<div class="container">
+		<div class="row text-center lista_plan">
+			<h2 class="">CONTIENE</h2>
+			<div class="col-md-6">
+				<ul>
+					<li>1 MB ESPACIO</li>
+					<li>POSICIONAMIENTO EN LOS BUSCADORES</li>
+					<li>MANTENIMIENTO GRATIS </li>
+					<li>DISEÑO PERSONALIZADO</li>
+				</ul>
+			</div>
+			<div class="col-md-6">
+				<ul>
+					<li>DINAMISMO EN EL SITIO WEB</li>
+					<li>AREA DE CONTACTO CON FORMULARIO</li>
+					<li>ENLACE CON REDES SOCIALES</li>
+					<li>DISEÑO ADACTADO DISPOSITIVOS </li>
+					<li>REPORTE DE VISITAS MENSUAL</li>		
+				</ul>
+			</div>			
+		</div>
+		<div class="row text-center">
+			<div class="col-md-6 precio_plan" style="background-color:#00D3FE">
+				<h3>Tu sitio <b>.com.ve</b> => 12.400,00Bsf</h3>	
+			</div>
+			<div class="col-md-6 precio_plan" style="background-color:#00D3FE">
+				<h3>Tu sitio <b>.com</b> => 26.000,00Bsf </h3>		
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			$(document).ready(function(){
+				
+				$("#btn_comprar").click(function(){
+					$(".click_comprar").slideDown('slow');
+					$(".click_preguntar").slideUp('slow');
+				});
+
+				$("#btn_preguntar").click(function(){
+					$(".click_preguntar").slideDown('slow');
+					$(".click_comprar").slideUp('slow');
+				});
+
+			});
+		</script>
+
+		<div class="row comp_pregu_plan text-center">
+			<div class="col-md-6">
+				<button class="btn btn-primary btn-block" style="margin:auto;" id="btn_comprar">COMPRAR</button>
+			</div>
+			<div class="col-md-6">
+				<button class="btn btn-info btn-block" style="margin:auto;" id="btn_preguntar">PREGUNTAR</button>
+			</div>
+		</div>
+
+
+
+		<div class="row pregunta_plan click_preguntar">
+			<form action="" method="POST" class="form-group">
+			<h2>Realiza tu pregunta</h2>
+				<div class="row">
+					<div class="col-md-6">
+						<label>Nombre y Apellido</label>
+						<input class="form-control" type="text" placeholder="Nombre y Apellido" name="nombre_apellido">
+					</div>
+					<div class="col-md-6">
+						<label>Tú Correo Electronico</label>
+						<input class="form-control" type="text" placeholder="Tú Correo Electronico" name="nombre_apellido">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12" style="padding:10px;">
+						<label>¿Cual es tú pregunta o duda?</label>
+						<textarea name="" placeholder="¿Cual es tú pregunta o duda?" class="form-control"></textarea>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<button class="btn btn-primary btn-lg">Enviar</button>
+					</div>
+				</div>
+			</form>
+		</div>
+
+		<div class="row compra_plan click_comprar">
+			<form action="" method="POST" class="form-group">
+			<h2>Completa el formulario para confirmar su compra</h2>
+				<div class="row">
+					<div class="col-md-6">
+						<label>Nombre y Apellido</label>
+						<input class="form-control" type="text" placeholder="Nombre y Apellido" name="nombre_apellido">
+					</div>
+					<div class="col-md-6">
+						<label>Tú Correo Electronico</label>
+						<input class="form-control" type="text" placeholder="Tú Correo Electronico" name="nombre_apellido">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4" style="padding:10px;">
+						<label>Cedula de Identidad</label>
+						<input type="text" placeholder="Cedula de Identidad" class="form-control" name="">
+					</div>
+					<div class="col-md-4" style="padding:10px;">
+						<label>Telefono</label>
+						<input type="text" placeholder="Telefono" class="form-control" name="">
+					</div>
+					<div class="col-md-4" style="padding:10px;">
+						<label>Dirección</label>
+						<input type="text" placeholder="Dirección" class="form-control" name="">
+					</div>										
+				</div>
+				<div class="row">
+					<div class="col-md-12" style="padding:10px;">
+						<label>¿Alguna idea pra el diseño tu sitio web?</label>
+						<textarea name="" class="form-control" placeholder="¿Alguna idea pra el diseño tu sitio web?"></textarea>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<button class="btn btn-primary btn-lg">Enviar</button>
+					</div>
+				</div>
+			</form>
+		</div>		
+	</div>
+</section>

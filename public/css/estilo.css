@@ -1,0 +1,341 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster|Pacifico|Dancing+Script|Varela+Round);
+
+/***Funtes
+font-family: 'Pacifico', cursive; || letra curva
+
+font-family: 'Dancing Script', cursive; || letra curva pero mas suave
+
+font-family: 'Varela Round', sans-serif; || para texto
+**/
+
+*{
+	font-family: 'Varela Round', sans-serif
+}
+body{
+	background-color:white; 
+}
+
+
+/***** PARA HACER ESPACIOS *****/
+.espa_30{
+	padding: 30px;
+}
+.espa_20{
+	padding: 20px;
+}
+
+
+/***** HEADER DE LA PAGINA *****/
+header{
+	padding: 5px;
+}
+
+header h1{
+	font-size: 50px;
+	font-family: 'Pacifico', cursive;
+}
+
+header h5{
+	margin-left: 8%;
+	font-family: 'Pacifico', cursive
+}
+
+/****** ESTILO DE ****/
+.yo,.portafolio p{
+	font-size: 18px;
+}
+.portafolio h2{
+	font-family: 'Pacifico', cursive;
+}
+
+
+.yo h2,h3{
+	font-family: 'Pacifico', cursive;
+}
+
+
+
+.conte_uno h2{
+	font-family: 'Dancing Script', cursive;
+}
+
+.conte_uno p{
+	padding: 10px;
+	font-size: 20px;
+}
+
+.video{
+	background-color: black;
+	width: 100%;
+	height: 300px;
+}
+
+.cont_dos{
+
+}
+.cont_dos h3{
+	background-color:#118DAA;
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	padding: 20px;
+	color: white;
+	text-shadow:0px 1px 1px black;
+}
+
+.cont_dos p{
+	padding: 20px;
+	margin: auto;
+	text-align: justify;
+	
+}
+.cont_tres{
+	padding: 3px;
+	padding-top: 13px;
+}
+
+.cont_tres h4{
+	margin: auto;
+	width: 80%;
+	padding: 5px; 
+}
+
+.cont_tres img{
+	box-shadow: 0px 1px 1px black;
+}
+
+.fondogris{
+	background-color: #F4F0F0;
+	box-shadow: 0px 1px 1px #EBEBEB;
+	border-radius: 0px 0px 6px 6px;
+}
+
+/***************
+* MENU
+**********/
+
+ul, ol {
+	list-style:none;
+}
+.nav{
+	margin-top: 5%;
+}
+.nav > li {
+	text-align: center;
+	font-size: 16px;
+	float:left;
+	width: 120px;
+}
+			
+.nav li a {
+	background-color:#118DAA;
+	border-radius: 6px;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+	margin-left: 1%;
+	margin-bottom: 1%;
+}
+			
+.nav li a:hover {
+	background-color:#434343;
+}
+			
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+			
+.nav li:hover > ul {
+	display:block;
+}
+			
+.nav li ul li {
+	margin-left: -40%;
+	position:relative;
+}
+			
+.nav li ul li ul {
+	right:-140px;
+	top:0px;
+}
+
+
+#plan_basico{
+	background-image: url("../../public/img/DeathtoStock_Wired6.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding-bottom: 10%;
+	padding-top: 10%;
+}
+#plan_basico h2{
+	background-color: white;
+	border-radius: 6px;
+	box-shadow: 0px 1px 1px black;
+	font-family: 'Pacifico', cursive;
+	padding: 20px;
+}
+
+/***********************************
+* ESTILO DE LOS PLANES Y SERVICIOS
+************************************/
+.nota_plan_basico{
+	background-color: #F0F0F0;
+	box-shadow: 0px 1px 1px black;
+	border-radius: 6px;
+	text-align: justify;
+	font-size: 20px;
+	padding: 30px;
+}
+.nota_plan_basico p{
+	font-family: 'Dancing Script', cursive;
+}
+#plan_basico_contenido h2{
+	background-color: #1895F6;
+	color: white;
+	text-shadow:0px 1px 1px black;
+	padding: 20px;
+	font-family: 'Pacifico', cursive;
+}
+#plan_basico_contenido li{
+	margin-top: 5%;
+}
+#plan_basico_contenido h3{
+	font-family: 'Dancing Script', cursive;
+}
+#comprar{
+	background-color: #42B659;
+	color: white;
+	text-shadow:0px 0px 1px black;
+	border-radius: 6px;
+	padding: 10px;
+	width: 200px;
+	cursor: pointer;
+}
+#comprar:hover{
+	background-color: #6CCB7F;
+}
+.serv_img{
+	border-radius: 6px;
+	box-shadow: 0px 1px 1px black;
+	padding: 50px;
+}
+
+
+#form_comprar input{
+	margin-top: 5px;
+}
+#form_comprar textarea{
+	margin-top: 5px;
+}
+
+
+.quita_enlace a{
+	text-decoration: none;
+}
+
+
+.espesificado{
+	margin-bottom: 2%;
+}
+.espesificado p{
+	font-size: 18px;
+}
+.lista_plan{
+	font-size: 20px;
+}
+.lista_plan li{
+	margin-bottom: 4%;
+}
+.titulo_plan{
+	padding-top: 3%;
+	color: white;
+	text-shadow:0px 1px 1px black;
+}
+.titulo_plan h2{
+	background-color: red;
+	border-radius: 6px;
+	padding: 20px;
+	width: 30%;
+	margin: auto;
+}
+.descripcion_plan p{
+	background-color: #E8E8E8;
+	border-radius: 6px;
+	box-shadow: 0px 1px 1px black;
+	font-size: 20px;
+	padding: 30px; 
+}
+.precio_plan{
+	margin-top: 2%;
+	padding: 10px;
+	box-shadow: 0px 1px 1px black;
+}
+.comp_pregu_plan{
+	margin-top: 3%;
+}
+.comp_pregu_plan button{
+	height: 70px;
+	width: 300px;
+	padding: 10px;
+}
+
+.pregunta_plan, .compra_plan{
+	display: none;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.pregunta_plan h2{
+	background-color: #2E8DBB;
+	color: white;
+	font-family: 'Dancing Script', cursive;
+	padding: 15px;
+	text-shadow:0px 1px 1px black;
+}
+.compra_plan h2{
+	background-color: #2E8DBB;
+	color: white;
+	font-family: 'Dancing Script', cursive;
+	padding: 15px;
+	text-shadow:0px 1px 1px black;
+}
+.fondo_imagen{ 
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+/************AREA DE SERVICIO *****/
+.estyl_plan a{
+	color: black;
+	text-decoration: none;
+}
+.panta_plan:hover{
+	background-color: #EAEAEA;
+	box-shadow: 0px 1px 1px black;
+}
+.estyl_plan li{
+	margin-top: 3%;
+}
+.enlace_plan_button{
+	color: white;
+	background-color: #49B6CE;
+	border-radius: 6px;
+	cursor: pointer;
+	margin-bottom: 2%;
+	margin-top: 20px;
+	padding: 15px;
+	text-shadow:0px 1px 1px black;
+	text-shadow:0px 1px 1px black;
+}
+.enlace_plan_button:hover{
+	background-color: #22C574;
+}
+
+.click_comprar{
+	display: none;
+}
