@@ -15,7 +15,7 @@ class control {
 		
 		if ($que_es=="index") {
 			//index
-
+			echo file_get_contents($ruta."vista/slide-demostracion.html");
 		}elseif($que_es=="yo"){
 			echo file_get_contents($ruta."vista/yo.html");
 		}elseif($que_es=="portafolio"){

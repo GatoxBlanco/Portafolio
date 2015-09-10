@@ -40,19 +40,35 @@ header h5{
 	font-family: 'Pacifico', cursive
 }
 
-/****** ESTILO DE ****/
+/****** ESTILO DEL PORTAFOLIO ****/
 .yo,.portafolio p{
 	font-size: 18px;
 }
 .portafolio h2{
 	font-family: 'Pacifico', cursive;
 }
-
+.portafolio h3{
+	cursor: pointer;
+}
 
 .yo h2,h3{
 	font-family: 'Pacifico', cursive;
 }
 
+/*******DESARROLLO - EN EL AREA DE PORTAFOLIO ****/
+.dess{
+	display: none;
+	padding: 10px;
+}
+.dess h2{
+	background-color: #49B6CE;
+	border-radius: 6px;
+	padding: 20px;
+}
+.dess li{
+	font-size: 18px;
+	padding: 10px;
+}
 
 
 .conte_uno h2{
@@ -308,6 +324,12 @@ ul, ol {
 	background-position: center;
 }
 
+/************FOOTER *******/
+footer{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 
 /************AREA DE SERVICIO *****/
 .estyl_plan a{
@@ -322,9 +344,9 @@ ul, ol {
 	margin-top: 3%;
 }
 .enlace_plan_button{
-	color: white;
 	background-color: #49B6CE;
 	border-radius: 6px;
+	color: white;
 	cursor: pointer;
 	margin-bottom: 2%;
 	margin-top: 20px;
@@ -338,4 +360,15 @@ ul, ol {
 
 .click_comprar{
 	display: none;
+}
+
+
+/*************/
+.demostra_index{
+	background-position: center;
+	height: 200px;
+	padding: 20px;
+}
+.demostra_index h2{
+
 }
