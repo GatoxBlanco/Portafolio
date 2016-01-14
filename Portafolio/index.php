@@ -1,5 +1,5 @@
 <?php 
 require("../controlador/control.php");
-$obj=new control;
-$obj->estructura("../","portafolio");
+$obj=new Control_General; 
+$obj->f_control_general("../","portafolio"); 
 ?>

@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans|Orbitron|Righteous);
+/* 
+** ** ** ** ** ** TIPOGRAFIAS
+
+- font-family: 'Noto Sans', sans-serif; PARA LOS TEXTO 
+- font-family: 'Orbitron', sans-serif;  PARA LA ESTRUCTURA DE LOS TITULOS
+- font-family: 'Righteous', cursive; 	PUEDE SER PARA OTROS TITULOS
+
+*/
+
+p{
+	font-family: 'Noto Sans', sans-serif;
+}
+/*BODY DEL INICIO*/
+#body_index{
+    background-image: url("../img/logoFelixBlanco-0.png");
+    background-repeat: no-repeat;
+
+}
+/*HEADER DEL INICIO*/
+#header_index h1{
+	font-family: 'Orbitron', sans-serif;
+	margin-top: 5%;
+}
+#header_index small{
+	color: #43F2E0;
+}
+/**HEADER GENERAL PARA YO/SERVICIO/**/
+#header_general{  
+ 	font-family: 'Orbitron', sans-serif;
+}
+#nav_general a{
+	text-decoration: none;
+}
+/*BOTONERA DEL INICIO*/
+#nav_index{
+	font-family: 'Righteous', cursive;
+	margin-top: 2%;
+}
+#nav_index span{
+	font-size: 35px;
+}
+#nav_index a{
+	text-decoration: none;
+}
+
+/**PIE DE PAGINA GENERAL **/
+#footer_general{
+	margin-top: 2%;
+}
+/**YO**/
+#site_yo{
+
+}
+#site_yo h2,h3,h4{
+	font-family: 'Righteous', cursive;
+}
+#site_yo p{
+	font-family: 'Noto Sans', sans-serif;
+}
+
+
+/*** SERVICIO ***/
+.servi_0_inicio h2{
+	font-family: 'Righteous', cursive;
+}
+#servi_3_inicio{
+	font-family: 'Noto Sans', sans-serif;
+	padding-top: 5%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+#servi_3_inicio h2{
+	font-family: 'Righteous', cursive;
+}
+
+#dominio_img{
+	background-image: url("../img/Dominios_374690691.jpg");
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 250px;
+}
+#hosting_img{ 
+	background-image: url("../img/19_FILEminimizer_.jpg");
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 290px;
+}
+.cont_apre{
+	padding-top: 20px;
+}
+.cont_apre h3{
+	padding-bottom: 10px;
+}
+.cont_apre p{
+	padding: 30px;
+}
